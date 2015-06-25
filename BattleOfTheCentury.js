@@ -50,11 +50,11 @@ var number2 = getRandom(1,2,3,4)
 		};
 
 	console.log("Here comes Fat Ronald...");
-	if (number == 2) {// if he hits
-	joeHP = joeHP -2;
-	//if he misses
-	joeHP = joeHP -0;
-	
+		if (number2 == 2) {
+			joeHP = joeHP -2;  // if Joe hits
+		} else {				
+			joeHP = joeHP -0;  //if he misses
+		};
 	// Round Recap
 	console.log("After that round Joe's HP is at " + joeHP + " and Ronald's is at " + ronaldHP + "\n")
 
